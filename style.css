@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap" rel="stylesheet');
 *{
     padding:0;
     margin:0;
@@ -10,11 +11,13 @@
     height:80vh;
     position:relative;
 }
-
+body{
+    background-color: black;
+}
 .box{
     height:80vh;
     width:100%;
-    opacity:0.4;
+    opacity:0.6;
     background-color: black;
     top:0;
     position: absolute;
@@ -36,11 +39,80 @@ nav button{
     position: relative;
     z-index: 10;
 }
+
 .hero{
-    height:100%;
+    height:calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0 30px;
+    /* padding-bottom: 0px; */
+    gap:23px;
+    text-align: center;
     color: white;
+}
+.hero> :nth-child(1){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:48px;
+    position: relative;
+    z-index: 10;
+}
+.hero> :nth-child(2){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:48px;
+    position: relative;
+    z-index: 10;
+}
+.hero :nth-child(3){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:20px;
+    position: relative;
+    z-index: 10;
+}
+.hero :nth-child(4){
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+    font-size:20px;
+    position: relative;
+    z-index: 10;
+}
+.hero :nth-child(1){
+    position: relative;
+    z-index: 10;
+}
+.hero :nth-child(2){
+    position: relative;
+    z-index: 10;
+}
+.line{
+    height: 4px;
+    background-color: rgb(40, 40, 40);
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    border:0px;
+}
+.tn-red{
+    background-color: red;
+    font-weight: 100;
+    color:white;
+    border:0px;
+    padding:4px 8px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.tn-red-sm{
+    background-color: red;
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 4px;
+    border:0px;
+    padding:4px 8px;
 }
