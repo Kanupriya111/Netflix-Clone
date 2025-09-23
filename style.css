@@ -99,10 +99,10 @@ nav button{
     border-radius: 4px;
     background-color: rgba(23,23,23,0.54);
     color:white;
-    border:0px;
+    border:0.1px solid whitesmoke;
 }
 .tn-red{
-    background-color: red;
+    background-color: rgb(216, 3, 3);
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
@@ -112,7 +112,7 @@ nav button{
     border-radius: 4px;
 }
 .tn-red-sm{
-    background-color: red;
+    background-color: rgb(216, 3, 3);
     color:white;
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -129,4 +129,3 @@ nav button{
     font-weight: 400;
     background-color: rgba(23,23,23,0.54);
 }
-
